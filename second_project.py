@@ -10,6 +10,7 @@ def show_calculator():
     lbl_screen=tk.Label(
         master=win,
         text="0",
+        
     )
     lbl_screen.grid(row=0,column=0,columnspan=4,padx=7,pady=7,sticky="ew")
 
