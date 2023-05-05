@@ -101,16 +101,7 @@ def show_calculator():
             column=index % 4,
             sticky="ew",
             )
-
-    # 0,1,2,3  >>>>>  INDEX//4 +1  (ROW=1) 
-    # 4,5,6,7  >>>>>   INDEX//4=1+1(ROW=2)
-    # 8,9,10,11  >>>>>  INDEX//4=2+1 (ROW=3)
-    # 12,13,14,15  >>>>>   INDEX//4=3+1 (ROW=4) 
-
-    # 0,4,8,12  >>>>>  INDEX % 4   (COLUMN=0) 
-    # 1,5,9,13  >>>>>  INDEX % 4   (COLUMN=1) 
-    # 2,6,10,14 >>>>>  INDEX % 4   (COLUMN=2) 
-    # 3,7,11,15 >>>>>  INDEX % 4   (COLUMN=3) 
+ 
     win.mainloop()
 
 show_calculator()
