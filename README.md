@@ -1,2 +1,2 @@
 # SmallCalculator
-This is a small calculator which was wroten by python 
+This is a small calculator written in Python, which is designed to perform basic arithmetic operations, such as addition, subtraction, multiplication, and division. The calculator takes user input through the console or command line interface and returns the result of the calculation. The project can be used as a starting point for building more complex calculators or mathematical applications.
